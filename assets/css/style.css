@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(80deg, #000000, #292929)
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(0, 238, 255);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    color: aqua;
+}
+
+.butões button{
+    background-color: #000000;
+    color: aqua;
+    padding: 20px;
+    padding-left: 56px;
+    padding-right: 56px;
+    border-color: aqua;
+}
+
+.img-def {
+    width: 20%;
+    height: 20%;
+}
+
+.text-color {
+    color: aqua;
+}

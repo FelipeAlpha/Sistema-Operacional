@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Operacional</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="main-login">
+        <img src="assets/img/secure-login.svg" class="img-def" alt="img-def">
+        <div class="calculadora">
+            <div class="butões">
+                <button onclick="calcular('soma')">5 + 5</button>
+                <button onclick="calcular('subtracao')">5 - 5</button>
+                <button onclick="calcular('multiplicacao')">5 * 5</button>
+                <button onclick="calcular('divisao')">5 / 5</button>
+                <br></br>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cálculo</th>
+                        <th>Resultado</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="resultado-tabela">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
